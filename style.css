@@ -385,3 +385,8 @@ footer p {
 
 
 
+.intro h2,
+.intro p {
+  display: block;
+  margin-bottom: 15px; /* Optional: Add space between sections */
+}
