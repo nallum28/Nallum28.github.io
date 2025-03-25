@@ -256,6 +256,132 @@ h2 {
   transform: scale(1.1);
   transition: 0.3s ease-in-out;
 }
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #fff;
+  margin: 0;
+}
+
+nav {
+  background-color: #333;
+  padding: 1em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #4CAF50;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+/* Achievements Section */
+.achievements-container {
+  padding: 3em 2em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  color: #4CAF50;
+  margin-bottom: 1em;
+}
+
+h2 {
+  margin-top: 2em;
+}
+
+.achievements, .extra-curricular-achievements, .certifications, .personal-milestones {
+  margin-top: 2em;
+}
+
+.achievement-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 1.5em;
+}
+
+.achievement-list li {
+  background-color: #333;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.achievement-list li i {
+  margin-right: 15px;
+  color: #4CAF50;
+  font-size: 1.5em;
+}
+
+.achievement-list li strong {
+  color: #4CAF50;
+}
+
+/* Add hover effect to list items */
+.achievement-list li:hover {
+  background-color: #444;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+
+footer p {
+  margin-top: 1em;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .achievement-list li {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .achievement-list li i {
+    margin-bottom: 10px;
+  }
+}
 
 
 
