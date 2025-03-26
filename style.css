@@ -390,3 +390,49 @@ footer p {
   display: block;
   margin-bottom: 15px; /* Optional: Add space between sections */
 }
+
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #1e1e1e;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #00bcd4;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+#blog-container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#pagination button {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#pagination button:hover {
+    background-color: #008c9e;
+}
