@@ -436,3 +436,57 @@ nav a.active {
 #pagination button:hover {
     background-color: #008c9e;
 }
+
+/* Certificate links container */
+.certificate-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    align-items: center;
+}
+
+/* Certificate link styling */
+.certificate-item a {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    background: linear-gradient(135deg, #00bcd4, #008c9e);
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 188, 212, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+/* Title styling */
+.cert-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Subtitle styling */
+.cert-subtitle {
+    display: block;
+    font-size: 16px;
+    color: #f1f1f1;
+    margin-top: 8px;
+}
+
+/* Hover effect */
+.certificate-item a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 188, 212, 0.6);
+    background: linear-gradient(135deg, #008c9e, #00bcd4);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .certificate-item a {
+        width: 90%;
+    }
+}
+
+
