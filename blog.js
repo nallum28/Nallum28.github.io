@@ -18,9 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
     <p>Watching the students engage with the <strong>cybersecurity process</strong>—from spotting key details to reacting to the unfolding evidence—was incredibly rewarding. Their curiosity and willingness to participate highlighted just how <strong>impactful hands-on, immersive learning</strong> can be.</p>
 
     <p>Returning to the outreach office afterward, I reflected on how this event came together so quickly after the <strong>school visit</strong>. It was a reminder of how <strong>spontaneous opportunities</strong> can lead to some of the most memorable experiences. The chance to <strong>showcase cybersecurity skills</strong> in an interactive format, while collaborating with creative leads, was a highlight—and hopefully, it sparked some interest in <strong>tech and digital forensics</strong> among the students.</p>
-    `
-}
-{ id: "campus-tours", title: "Hosting Campus Tours for Departments", content: "Giving a tour is more than just walking around..." }
+    `},
+    {id: "campus-tours", title: "Hosting Campus Tours for Departments", content: "Giving a tour is more than just walking around..." }
     ];
 
     const container = document.getElementById("blog-container");
