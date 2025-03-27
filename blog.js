@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const posts = [
         { id: "stewarding", title: "Reflections on My First Stewarding Shift", content: "It was a great learning experience..." },
         { id: "cyber-conference", title: "Hosting a Cyber Conference: What I Learned", content: "The Cybersecurity Room: A Digital Investigation Unfolds." },
-        { id: "school-visits", title: "Creating an Immersive Day",content: `
+        { id: "immersive-campus-day", title: "Creating an Immersive Day",content: `
     <h3>The Cybersecurity Room: A Digital Investigation Unfolds</h3>
     <p>The event revolved around a <strong>murder mystery</strong> with <strong>five suspects</strong>, each with potential motives and hidden connections to the victim. In my room, students became part of the digital investigation. I <strong>projected my screen</strong> to the room, demonstrating <strong>OSINT (Open-Source Intelligence)</strong> techniques and <strong>password cracking</strong> in real time.</p>
 
