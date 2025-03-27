@@ -4,7 +4,16 @@ document.addEventListener("DOMContentLoaded", () => {
     
     const posts = [
         { id: "stewarding", title: "Reflections on My First Stewarding Shift", content: "It was a great learning experience..." },
-        { id: "cyber-conference", title: "Hosting a Cyber Conference: What I Learned", content: "Organizing a conference is tough, but..." },
+        { id: "cyber-conference", title: "Hosting a Cyber Conference: What I Learned", content: "The Cybersecurity Room: A Digital Investigation Unfolds
+The event revolved around a murder mystery with five suspects, each with potential motives and hidden connections to the victim. In my room, students became part of the digital investigation. I projected my screen to the room, demonstrating OSINT (Open-Source Intelligence) techniques and password cracking in real time.
+
+While I led the technical investigation, the students weren’t just passive observers—they interacted at various points, contributing ideas, making observations, and helping to piece together the clues. Their input was key as we uncovered private messages between the suspect and victim, providing critical evidence for the courtroom portion of the day.
+
+From Concept to Execution
+Creating this experience required close collaboration with the overall lead and the scriptwriter responsible for the day’s narrative. We worked together to ensure that the cybersecurity portion fit seamlessly into the storyline, while keeping the techniques realistic but accessible for the 14-16 year old audience. The goal was to make it educational, engaging, and slightly cinematic—giving students a glimpse into how digital investigations are conducted.
+
+Impact and Reflections
+Watching the students engage with the cybersecurity process—from spotting key details to reacting to the unfolding evidence—was incredibly rewarding. Their curiosity and willingness to participate highlighted just how impactful hands-on, immersive learning can be." },
         { id: "school-workshops", title: "Teaching Cybersecurity to School Kids", content: "I designed a fun workshop where..." },
         { id: "school-visits", title: "Showcasing My Degree to Schools", content: "Visiting schools was an eye-opener..." },
         { id: "campus-tours", title: "Hosting Campus Tours for Departments", content: "Giving a tour is more than just walking around..." }
