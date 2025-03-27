@@ -32,8 +32,34 @@
 
   <main id="blog-container">
     <article id="evil-twin-attack">
-      <h2>Mitigating Evil Twin Attacks</h2>
-      <p>Learn about how I designed a project to mitigate Evil Twin Attacks, a common Wi-Fi threat.</p>
+<h2>Reflecting on My Honours Project: Detecting and Preventing Evil Twin Attacks</h2>
+  
+  <p>As I submitted my honours project and dissertation, I found myself reflecting on the journey it took to develop a comprehensive tool aimed at detecting and preventing <strong>Evil Twin attacks</strong>. This project was not only a significant academic milestone but also a real-world challenge in the cybersecurity space, highlighting the critical need for better wireless network security.</p>
+
+  <h3>The Challenge of Evil Twin Attacks</h3>
+  <p><strong>Evil Twin attacks</strong> are a form of <strong>Wi-Fi phishing</strong> that exploit the way we connect to wireless networks. In these attacks, a malicious actor sets up a rogue access point that mimics a legitimate one, tricking users into connecting to it. Once connected, attackers can intercept sensitive data, inject malicious payloads, or simply disrupt the connection. The sophistication of these attacks made them an intriguing topic for my honours project.</p>
+  <p>The problem, however, was clear: detecting and preventing Evil Twin attacks required a tool that could not only identify rogue access points but also actively defend against them. That’s where my project came in.</p>
+
+  <h3>Creating the Tool</h3>
+  <p>The project aimed to build a practical, deployable solution on <strong>Kali Linux</strong>, a distribution that is widely used for penetration testing and security research. The tool I created combined several powerful open-source libraries and tools to perform a variety of functions:</p>
+  <ul>
+    <li><strong>Aircrack-ng</strong>: I used <strong>Aircrack-ng</strong> for monitoring Wi-Fi traffic and identifying access points. It helped capture packets and detect rogue APs (Access Points) by analyzing network behavior and SSIDs.</li>
+    <li><strong>Scapy</strong>: Scapy, a powerful Python-based tool, was invaluable for packet crafting and manipulation. I leveraged it to create customized packets that could inject into the network to test whether a specific AP was attempting to impersonate a legitimate one.</li>
+    <li><strong>WPA Handshake Cracking</strong>: The tool also had the ability to attempt WPA handshake cracking on the captured data, further verifying the legitimacy of the access point and ensuring no rogue entities could bypass security measures.</li>
+  </ul>
+
+  <h3>Developing the Dissertation</h3>
+  <p>While the tool was being built, I simultaneously worked on my dissertation, which provided a comprehensive analysis of the problem, the techniques used to detect Evil Twin attacks, and the methods for preventing them. The dissertation was both a technical breakdown and an exploration of the wider implications of wireless network security.</p>
+  <p>I examined several detection strategies, from simple <strong>passive scanning</strong> (looking for discrepancies in network behavior) to more active detection methods (forcing probes and detecting the rogue AP’s response). In terms of prevention, I focused on techniques such as <strong>device whitelisting</strong>, <strong>certificate-based authentication</strong>, and other mechanisms that could be incorporated into existing network security protocols.</p>
+  <p>The dissertation also explored <strong>real-world scenarios</strong>, considering both home and enterprise-level Wi-Fi networks, as well as the evolving threats posed by more sophisticated actors using multiple rogue APs to create <strong>man-in-the-middle</strong> scenarios.</p>
+
+  <h3>Lessons Learned</h3>
+  <p>Reflecting on this experience, I realize that the project was a balancing act of theory, practical application, and learning to adapt tools in creative ways. While <strong>theoretical knowledge</strong> was essential for understanding the mechanics of Evil Twin attacks, the actual <strong>tool development</strong> pushed me to understand the limits of existing tools and how to integrate them into a cohesive system.</p>
+  <p>One of the most valuable lessons I took away was the importance of <strong>real-world testing</strong>. Although simulations are useful, I found that testing in live environments provided insights that were impossible to predict in theory. The unpredictability of real-world networks added layers of complexity to the tool’s design, and overcoming these hurdles taught me how to think critically under pressure.</p>
+
+  <h3>Looking Ahead: The Future of Wireless Security</h3>
+  <p>After the submission, I reflected on how Evil Twin attacks continue to evolve and how my tool could potentially be expanded. As Wi-Fi networks become more advanced and ubiquitous, the need for innovative security measures will only grow. I hope that this project serves as a stepping stone for future work in wireless security—whether that’s through <strong>machine learning-based detection</strong> or <strong>AI-driven mitigation strategies</strong> that could detect patterns of behavior that human analysis might miss.</p>
+  <p>Ultimately, this honours project has deepened my passion for network security, and I am excited to continue exploring the many challenges that lie ahead. It’s a reminder of how vital it is to stay ahead of the curve and always be one step ahead of attackers. I am grateful for the opportunity to have worked on something that could contribute to a safer digital future.</p>
     </article>
 
     <article id="cyber-conference">
