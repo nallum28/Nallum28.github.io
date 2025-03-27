@@ -1,6 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const postsPerPage = 2;
-    let currentPage = 1;
+    const urlParams = new URLSearchParams(window.location.search);
+    const postId = urlParams.get('post'); // Get the 'post' query parameter
+
+    const posts = document.querySelectorAll('.blog-post');
+    let currentPage = 0;
 
     const posts = [
         { id: "stewarding", title: "Reflections on My First Stewarding Shift", content: "It was a great learning experience..." },
